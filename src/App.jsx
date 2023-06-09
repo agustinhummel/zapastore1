@@ -1,7 +1,20 @@
-export default function App() {
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './pages/home';
+import NavBar from './componets/navBar';
+import Footer from './componets/footes';
+import Detail from './pages/detail';
+function App() {
+  
   return (
-    <h1 className="text-3xl font-bold ">
-      ZAPA STORE
-    </h1>
+    <BrowserRouter>
+      <NavBar/>
+      <Routes>
+        <Route exact path='/' element={<Home/>}/>
+        <Route exact path='/detail' element={<Detail/>}/>
+      </Routes>
+      <Footer/>
+    </BrowserRouter>
   )
 }
+
+export default App
