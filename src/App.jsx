@@ -3,6 +3,7 @@ import Home from './pages/home';
 import NavBar from './componets/navBar';
 import Footer from './componets/footes';
 import Detail from './pages/detail';
+import Products from './componets/products';
 function App() {
   
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route exact path='/' element={<Home/>}/>
         <Route exact path='/detail' element={<Detail/>}/>
+        <Route exact path='/product' element={<Products/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
