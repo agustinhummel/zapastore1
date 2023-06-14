@@ -1,14 +1,58 @@
 import React from 'react'
 
 const detail = () => {
+
+
+  const shoes = [
+    {
+      id:1,
+      name:"Jordan 1 Roja",
+      description:"Descubre el estilo con las icónicas Jordan 1. Estas zapatillas clásicas se destacan por su versatilidad, permitiéndote crear looks únicos y a la moda en cualquier ocasión. Con su combinación de colores clásicos y atemporales, las Jordan 1 se convierten en el complemento perfecto para cualquier outfit.",
+      size: [41, 42],
+      image:"https://res.cloudinary.com/dc0rv28n2/image/upload/v1686252916/zapastore/Jordan_1_diagonal_eqnvmg.jpg",
+      price:"20.000",
+      marca:"Nike"
+    },
+    {
+      id:2,
+      name:"Jordan 1 Verde",
+      description:"Descubre el estilo con las icónicas Jordan 1. Estas zapatillas clásicas se destacan por su versatilidad, permitiéndote crear looks únicos y a la moda en cualquier ocasión. Con su combinación de colores clásicos y atemporales, las Jordan 1 se convierten en el complemento perfecto para cualquier outfit.",
+      size: [41, 42, 44],
+      image:"https://res.cloudinary.com/dc0rv28n2/image/upload/v1686252924/zapastore/Jordan_1_verde_diagonal_qxiheu.jpg",
+      price:"20.000",
+      marca:"Nike"
+    },
+    {
+      id:3,
+      name:"Jordan Dunl Low",
+      description:"Descubre el estilo con las icónicas Jordan 1. Estas zapatillas clásicas se destacan por su versatilidad, permitiéndote crear looks únicos y a la moda en cualquier ocasión. Con su combinación de colores clásicos y atemporales, las Jordan 1 se convierten en el complemento perfecto para cualquier outfit.",
+      size: [41, 42, 43],
+      image:"https://res.cloudinary.com/dc0rv28n2/image/upload/v1686252544/zapastore/Dunk_low_diagonal_uhbk8u.jpg",
+      price:"20.000",
+      marca:"Nike"
+    },
+    {
+      id:4,
+      name:"Jordan Air Shadow",
+      description:"Descubre el estilo con las icónicas Jordan 1. Estas zapatillas clásicas se destacan por su versatilidad, permitiéndote crear looks únicos y a la moda en cualquier ocasión. Con su combinación de colores clásicos y atemporales, las Jordan 1 se convierten en el complemento perfecto para cualquier outfit.",
+      size: [42, 43, 45],
+      image:"https://res.cloudinary.com/dc0rv28n2/image/upload/v1686252537/zapastore/Air_shadow_diagonal_vhudm8.jpg",
+      price:"20.000",
+      marca:"Nike"
+    }
+  ]
+
+
+
   return (
-    <section class="text-white bg-gradient-to-r from-stone-950 to-neutral-500 hover:bg-gradient-to-l font-roboto overflow-hidden">
+    <section class="text-white bg-gradient-to-r from-neutral-500 to-stone-950 font-roboto overflow-hidden">
+      {shoes?.map(s=>(
   <div class="container px-5 py-24 mx-auto">
     <div class="lg:w-4/5 mx-auto flex flex-wrap">
-      <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://res.cloudinary.com/dc0rv28n2/image/upload/v1686252916/zapastore/Jordan_1_diagonal_eqnvmg.jpg"/>
+      <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src={s.image}/>
       <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-        <h2 class="text-sm title-font text-white tracking-widest">NIKE</h2>
-        <h1 class="text-white text-3xl title-font font-medium mb-1">Jordan 1</h1>
+        <h2 class="text-sm title-font text-white tracking-widest">{s.marca}</h2>
+        <h1 class="text-white text-3xl title-font font-medium mb-1">{s.name}</h1>
         <div class="flex mb-4">
           <span class="flex items-center">
             <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-red-500" viewBox="0 0 24 24">
@@ -46,17 +90,16 @@ const detail = () => {
             </a>
           </span>
         </div>
-        <p class="leading-relaxed">Descubre el estilo con las icónicas Jordan 1. Estas zapatillas clásicas se destacan por su versatilidad, permitiéndote crear looks únicos y a la moda en cualquier ocasión. Con su combinación de colores clásicos y atemporales, las Jordan 1 se convierten en el complemento perfecto para cualquier outfit.</p>
+        <p class="leading-relaxed">{s.description}</p>
         <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5">
 
           <div class="flex ml-6 items-center">
             <span class="mr-3">Size</span>
             <div class="relative">
               <select class="rounded border appearance-none border-red-100 py-2 focus:outline-none focus:ring-2 focus:ring-red-200 focus:border-red-500 text-black pl-3 pr-10">
-                <option>41</option>
-                <option>43</option>
-                {/* <option>L</option>
-                <option>XL</option> */}
+                <option>{s.size[0]}</option>
+                <option>{s.size[1]}</option>
+                <option>{s.size[2]}</option>
               </select>
               <span class="absolute right-0 top-0 h-full w-10 text-center text-white pointer-events-none flex items-center justify-center">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4" viewBox="0 0 24 24">
@@ -67,9 +110,9 @@ const detail = () => {
           </div>
         </div>
         <div class="flex">
-          <span class="title-font font-medium text-2xl text-white">$16650.00</span>
+          <span class="title-font font-medium text-2xl text-white">${s.price}</span>
           <button class="flex ml-auto text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded">Reserva YA!!!</button>
-          <a target='_blank' href={`https://api.whatsapp.com/send?phone=+549376465-1373&text=Hola quisiera reservar un par de Zapatillas`} className="flex" >
+          <a target='_blank' href={`https://api.whatsapp.com/send?phone=+549376465-1373&text=Hola quisiera reservar un par de ${s.name} ${s.image}`} className="flex" >
           <button class="rounded-full w-10 h-10 bg-green-600 p-0 border-0 inline-flex items-center justify-center text-white ml-4">
           <ion-icon name="logo-whatsapp"></ion-icon>
           </button>
@@ -78,6 +121,7 @@ const detail = () => {
       </div>
     </div>
   </div>
+  ))}
 </section>
   )
 }

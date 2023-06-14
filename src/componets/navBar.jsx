@@ -6,7 +6,7 @@ const navBar = () => {
         <header class="text-gray-600 body-font bg-black font-roboto">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
             <nav class="flex lg:w-2/5 flex-wrap items-center text-white cursor-pointer lg:justify-start md:ml-auto">
-            <Link to={`https://www.instagram.com/zapa_store3/`} ><a class="mr-5 hover:text-red-600 text-xl">ZAPA STORE</a></Link> 
+            <Link to={`https://www.instagram.com/zapa_store3/`} ><a class="mr-5 hover:text-red-600 text-xl">ZAPASTORE</a></Link> 
             <Link to={`/`}><a class="mr-5 hover:text-red-600 text-xl">Home</a></Link> 
             </nav>
             <a class="flex order-first lg:order-none  items-center  lg:items-center lg:justify-center">
