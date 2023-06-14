@@ -112,7 +112,7 @@ const detail = () => {
         <div class="flex">
           <span class="title-font font-medium text-2xl text-white">${s.price}</span>
           <button class="flex ml-auto text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded">Reserva YA!!!</button>
-          <a target='_blank' href={`https://api.whatsapp.com/send?phone=+549376465-1373&text=Hola quisiera reservar un par de ${s.name} ${s.image}`} className="flex" >
+          <a target='_blank' href={`https://api.whatsapp.com/send?phone=+549376465-1373&text=Hola quisiera reservar un par de ${s.name} `} className="flex" >
           <button class="rounded-full w-10 h-10 bg-green-600 p-0 border-0 inline-flex items-center justify-center text-white ml-4">
           <ion-icon name="logo-whatsapp"></ion-icon>
           </button>
