@@ -11,7 +11,7 @@ const contact = () => {
     </div>
     <div class="lg:w-1/2 md:w-2/3 mx-auto">
       <form class="flex flex-wrap -m-2" 
-        action= ''
+        action= 'https://getform.io/f/33552225-b57c-4b3a-990d-fb3e9dc7b239'
         method='POST'
       >
         <div class="p-2 w-1/2">

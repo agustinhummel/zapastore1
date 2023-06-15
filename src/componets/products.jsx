@@ -37,7 +37,25 @@ const products = () => {
       image:"https://res.cloudinary.com/dc0rv28n2/image/upload/v1686252537/zapastore/Air_shadow_diagonal_vhudm8.jpg",
       price:"20.000",
       marca:"Nike"
-    }
+    },
+    {
+      id:5,
+      name:"Jordan Air Shadow",
+      size: [41,42],
+      image:"https://res.cloudinary.com/dc0rv28n2/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1686840920/zapastore/IMG_0703_t0qmj6.jpg",
+      price:"20.000",
+      marca:"Nike"
+    },
+    {
+      id:6,
+      name:"Jordan Air Shadow",
+      size: [41,42],
+      image:"https://res.cloudinary.com/dc0rv28n2/image/upload/ar_1:1,c_fill,e_art:hokusai,g_auto,w_1000/v1686841249/zapastore/IMG_0558_dssxgo.jpg",
+      price:"20.000",
+      marca:"Nike"
+    },
+    
+    
 
   ]
 
@@ -60,78 +78,6 @@ const products = () => {
       </Link>
       </div>
         ))}
-        
-      {/* <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a class="block relative h-48 rounded overflow-hidden">
-          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/421x261"/>
-        </a>
-        <div class="mt-4">
-          <h3 class="text-white text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-          <h2 class="text-white title-font text-lg font-medium">Shooting Stars</h2>
-          <p class="mt-1">$21.15</p>
-        </div>
-      </div>
-      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a class="block relative h-48 rounded overflow-hidden">
-          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/422x262"/>
-        </a>
-        <div class="mt-4">
-          <h3 class="text-white text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-          <h2 class="text-white title-font text-lg font-medium">Neptune</h2>
-          <p class="mt-1">$12.00</p>
-        </div>
-      </div>
-      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a class="block relative h-48 rounded overflow-hidden">
-          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/423x263"/>
-        </a>
-        <div class="mt-4">
-          <h3 class="text-white text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-          <h2 class="text-white title-font text-lg font-medium">The 400 Blows</h2>
-          <p class="mt-1">$18.40</p>
-        </div>
-      </div>
-      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a class="block relative h-48 rounded overflow-hidden">
-          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/424x264"/>
-        </a>
-        <div class="mt-4">
-          <h3 class="text-white text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-          <h2 class="text-white title-font text-lg font-medium">The Catalyzer</h2>
-          <p class="mt-1">$16.00</p>
-        </div>
-      </div>
-      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a class="block relative h-48 rounded overflow-hidden">
-          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/425x265"/>
-        </a>
-        <div class="mt-4">
-          <h3 class="text-white text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-          <h2 class="text-white title-font text-lg font-medium">Shooting Stars</h2>
-          <p class="mt-1">$21.15</p>
-        </div>
-      </div>
-      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a class="block relative h-48 rounded overflow-hidden">
-          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/427x267"/>
-        </a>
-        <div class="mt-4">
-          <h3 class="text-white text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-          <h2 class="text-white title-font text-lg font-medium">Neptune</h2>
-          <p class="mt-1">$12.00</p>
-        </div>
-      </div>
-      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a class="block relative h-48 rounded overflow-hidden">
-          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/428x268"/>
-        </a>
-        <div class="mt-4">
-          <h3 class="text-white text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-          <h2 class="text-white title-font text-lg font-medium">The 400 Blows</h2>
-          <p class="mt-1">$18.40</p>
-        </div>
-      </div> */}
-
     </div>
     
   </div>

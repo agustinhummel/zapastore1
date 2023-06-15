@@ -8,7 +8,7 @@ const detail = () => {
       id:1,
       name:"Jordan 1 Roja",
       description:"Descubre el estilo con las icónicas Jordan 1. Estas zapatillas clásicas se destacan por su versatilidad, permitiéndote crear looks únicos y a la moda en cualquier ocasión. Con su combinación de colores clásicos y atemporales, las Jordan 1 se convierten en el complemento perfecto para cualquier outfit.",
-      size: [41, 42],
+      size: ["SIN STOCK"],
       image:"https://res.cloudinary.com/dc0rv28n2/image/upload/v1686252916/zapastore/Jordan_1_diagonal_eqnvmg.jpg",
       price:"20.000",
       marca:"Nike"
@@ -37,6 +37,24 @@ const detail = () => {
       description:"Descubre el estilo con las icónicas Jordan 1. Estas zapatillas clásicas se destacan por su versatilidad, permitiéndote crear looks únicos y a la moda en cualquier ocasión. Con su combinación de colores clásicos y atemporales, las Jordan 1 se convierten en el complemento perfecto para cualquier outfit.",
       size: [42, 43, 45],
       image:"https://res.cloudinary.com/dc0rv28n2/image/upload/v1686252537/zapastore/Air_shadow_diagonal_vhudm8.jpg",
+      price:"20.000",
+      marca:"Nike"
+    },
+    {
+      id:5,
+      name:"Jordan Air Shadow",
+      description:"Descubre el estilo con las icónicas Jordan 1. Estas zapatillas clásicas se destacan por su versatilidad, permitiéndote crear looks únicos y a la moda en cualquier ocasión. Con su combinación de colores clásicos y atemporales, las Jordan 1 se convierten en el complemento perfecto para cualquier outfit.",
+      size: [42, 43, 45],
+      image:"https://res.cloudinary.com/dc0rv28n2/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1686840920/zapastore/IMG_0703_t0qmj6.jpg",
+      price:"20.000",
+      marca:"Nike"
+    },
+    {
+      id:6,
+      name:"Jordan Air Shadow",
+      description:"Descubre el estilo con las icónicas Jordan 1. Estas zapatillas clásicas se destacan por su versatilidad, permitiéndote crear looks únicos y a la moda en cualquier ocasión. Con su combinación de colores clásicos y atemporales, las Jordan 1 se convierten en el complemento perfecto para cualquier outfit.",
+      size: [42, 43, 45],
+      image:"https://res.cloudinary.com/dc0rv28n2/image/upload/ar_1:1,c_fill,e_art:hokusai,g_auto,w_1000/v1686841249/zapastore/IMG_0558_dssxgo.jpg",
       price:"20.000",
       marca:"Nike"
     }
