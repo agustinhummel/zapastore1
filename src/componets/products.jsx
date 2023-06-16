@@ -9,54 +9,101 @@ const products = () => {
     {
       id:1,
       name:"Jordan 1 Roja",
-      size: [41,42],
+      size: [41,43],
       image:"https://res.cloudinary.com/dc0rv28n2/image/upload/v1686252916/zapastore/Jordan_1_diagonal_eqnvmg.jpg",
-      price:"20.000",
+      price:"16.500",
       marca:"Nike"
     },
     {
       id:2,
-      name:"Jordan 1 Verde",
-      size: [41,42],
+      name:"Jordan 1 Verde (SIN STOCK)",
+      size: ["SOLD OUT"],
       image:"https://res.cloudinary.com/dc0rv28n2/image/upload/v1686252924/zapastore/Jordan_1_verde_diagonal_qxiheu.jpg",
-      price:"20.000",
+      price:"16.500",
       marca:"Nike"
     },
     {
       id:3,
-      name:"Jordan Dunl Low",
-      size: [41,42],
+      name:"Jordan Low",
+      size: [40,41],
       image:"https://res.cloudinary.com/dc0rv28n2/image/upload/v1686252544/zapastore/Dunk_low_diagonal_uhbk8u.jpg",
-      price:"20.000",
+      price:"14.500",
       marca:"Nike"
     },
     {
       id:4,
       name:"Jordan Air Shadow",
-      size: [41,42],
+      size: [37],
       image:"https://res.cloudinary.com/dc0rv28n2/image/upload/v1686252537/zapastore/Air_shadow_diagonal_vhudm8.jpg",
-      price:"20.000",
+      price:"14.500",
       marca:"Nike"
     },
     {
       id:5,
-      name:"Jordan Air Shadow",
-      size: [41,42],
-      image:"https://res.cloudinary.com/dc0rv28n2/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1686840920/zapastore/IMG_0703_t0qmj6.jpg",
-      price:"20.000",
+      name:"SB Dunk Pro (SIN STOCK)",
+      size: ["SOLD OUT"],
+      image:"https://res.cloudinary.com/dc0rv28n2/image/upload/v1686840920/zapastore/IMG_0703_t0qmj6.jpg",
+      price:"18.500",
       marca:"Nike"
     },
     {
       id:6,
-      name:"Jordan Air Shadow",
-      size: [41,42],
-      image:"https://res.cloudinary.com/dc0rv28n2/image/upload/ar_1:1,c_fill,e_art:hokusai,g_auto,w_1000/v1686841249/zapastore/IMG_0558_dssxgo.jpg",
-      price:"20.000",
+      name:"Air Shadow Candy Color",
+      size: [39],
+      image:"https://res.cloudinary.com/dc0rv28n2/image/upload/v1686921602/zapastore/IMG_0474_essvjv.jpg",
+      price:"14.500",
       marca:"Nike"
     },
+    {
+      id:7,
+      name:"Jordan 1 Dior (SIN STOCK)",
+      size: ["SOLD OUT"],
+      image:"https://res.cloudinary.com/dc0rv28n2/image/upload/v1686841249/zapastore/IMG_0558_dssxgo.jpg",
+      price:"21.000",
+      marca:"Nike"
+    },
+    {
+      id:8,
+      name:"SB Dunk Pro",
+      size: [39],
+      image:"https://res.cloudinary.com/dc0rv28n2/image/upload/v1686921620/zapastore/IMG_0780.jpg_aicymj.jpg",
+      price:"18.500",
+      marca:"Nike"
+    },
+    {
+      id:9,
+      name:"SB Jean (SIN STOCK)",
+      size: ["SOLD OUT"],
+      image:"https://res.cloudinary.com/dc0rv28n2/image/upload/v1686921935/zapastore/IMG_0548_plmnuu.jpg",
+      price:"18.500",
+      marca:"Nike"
+    },
+    {
+      id:10,
+      name:"Jordan 1 Gamuza (SIN STOCK)",
+      size: ["SOLD OUT"],
+      image:"https://res.cloudinary.com/dc0rv28n2/image/upload/v1686921937/zapastore/jordan_celestt_oq7kt8.jpg",
+      price:"19.000",
+      marca:"Nike"
+    },
+    {
+      id:10,
+      name:"Bad Bunny (SIN STOCK)",
+      size: ["SOLD OUT"],
+      image:"https://res.cloudinary.com/dc0rv28n2/image/upload/v1686922702/zapastore/IMG_0832_wt9djv.jpg",
+      price:"20.000",
+      marca:"Adidas"
+    },
+    {
+      id:11,
+      name:"Air Force 1 (SIN STOCK)",
+      size: ["SOLD OUT"],
+      image:"https://res.cloudinary.com/dc0rv28n2/image/upload/v1686923683/zapastore/IMG_0452_xluhyk.jpg",
+      price:"18.500",
+      marca:"Nike"
+    },
+ 
     
-    
-
   ]
 
 

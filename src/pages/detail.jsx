@@ -7,57 +7,111 @@ const detail = () => {
     {
       id:1,
       name:"Jordan 1 Roja",
-      description:"Descubre el estilo con las icónicas Jordan 1. Estas zapatillas clásicas se destacan por su versatilidad, permitiéndote crear looks únicos y a la moda en cualquier ocasión. Con su combinación de colores clásicos y atemporales, las Jordan 1 se convierten en el complemento perfecto para cualquier outfit.",
-      size: ["SIN STOCK"],
+      description:"Descubre el estilo con las icónicas Jordan 1. Estas zapatillas clásicas se destacan por su versatilidad, permitiéndote crear looks únicos y a la moda en cualquier ocasión. Con su combinación de colores clásicos y atemporales, las Jordan 1 se convierten en el complemento perfecto para cualquier outfit",
+      size: [41,43],
       image:"https://res.cloudinary.com/dc0rv28n2/image/upload/v1686252916/zapastore/Jordan_1_diagonal_eqnvmg.jpg",
-      price:"20.000",
+      price:"16.500",
       marca:"Nike"
     },
     {
       id:2,
       name:"Jordan 1 Verde",
-      description:"Descubre el estilo con las icónicas Jordan 1. Estas zapatillas clásicas se destacan por su versatilidad, permitiéndote crear looks únicos y a la moda en cualquier ocasión. Con su combinación de colores clásicos y atemporales, las Jordan 1 se convierten en el complemento perfecto para cualquier outfit.",
-      size: [41, 42, 44],
+      description:"Descubre el estilo con las icónicas Jordan 1. Estas zapatillas clásicas se destacan por su versatilidad, permitiéndote crear looks únicos y a la moda en cualquier ocasión. Con su combinación de colores clásicos y atemporales, las Jordan 1 se convierten en el complemento perfecto para cualquier outfit",
+      size: ["SOLD OUT"],
       image:"https://res.cloudinary.com/dc0rv28n2/image/upload/v1686252924/zapastore/Jordan_1_verde_diagonal_qxiheu.jpg",
-      price:"20.000",
+      price:"16.500",
       marca:"Nike"
     },
     {
       id:3,
-      name:"Jordan Dunl Low",
-      description:"Descubre el estilo con las icónicas Jordan 1. Estas zapatillas clásicas se destacan por su versatilidad, permitiéndote crear looks únicos y a la moda en cualquier ocasión. Con su combinación de colores clásicos y atemporales, las Jordan 1 se convierten en el complemento perfecto para cualquier outfit.",
-      size: [41, 42, 43],
+      name:"Jordan Low",
+      description:"El equilibrio perfecto entre elegancia y versatilidad. Las Jordan Low en su clásico diseño en blanco y negro. Con un estilo minimalista y un diseño simple, estas zapatillas se convierten en la opción ideal para complementar cualquier outfit.",
+      size: [40,41],
       image:"https://res.cloudinary.com/dc0rv28n2/image/upload/v1686252544/zapastore/Dunk_low_diagonal_uhbk8u.jpg",
-      price:"20.000",
+      price:"14.500",
       marca:"Nike"
     },
     {
       id:4,
       name:"Jordan Air Shadow",
-      description:"Descubre el estilo con las icónicas Jordan 1. Estas zapatillas clásicas se destacan por su versatilidad, permitiéndote crear looks únicos y a la moda en cualquier ocasión. Con su combinación de colores clásicos y atemporales, las Jordan 1 se convierten en el complemento perfecto para cualquier outfit.",
-      size: [42, 43, 45],
+      description:"Las Air Shadow con un clásico atemporal que eleva tu estilo a otro nivel. Su diseño en blanco puro es sinónimo de elegancia y versatilidad, convirtiéndolas en el complemento perfecto para cualquier outfit. Ya sea que vistas un look casual, deportivo o más formal, estas zapatillas te brindan la combinación ideal de estilo y comodidad.",
+      size: [37],
       image:"https://res.cloudinary.com/dc0rv28n2/image/upload/v1686252537/zapastore/Air_shadow_diagonal_vhudm8.jpg",
-      price:"20.000",
+      price:"14.500",
       marca:"Nike"
     },
     {
       id:5,
-      name:"Jordan Air Shadow",
-      description:"Descubre el estilo con las icónicas Jordan 1. Estas zapatillas clásicas se destacan por su versatilidad, permitiéndote crear looks únicos y a la moda en cualquier ocasión. Con su combinación de colores clásicos y atemporales, las Jordan 1 se convierten en el complemento perfecto para cualquier outfit.",
-      size: [42, 43, 45],
-      image:"https://res.cloudinary.com/dc0rv28n2/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1686840920/zapastore/IMG_0703_t0qmj6.jpg",
-      price:"20.000",
+      name:"SB Dunk Pro",
+      description:"Descubre la esencia del estilo versátil con las zapatillas SB Pro. Su diseño básico combina a la perfección con cualquier outfit. Estas zapatillas te ofrecen un equilibrio perfecto entre simplicidad y estilo, permitiéndote expresar tu personalidad sin esfuerzo.",
+      size: ["SOLD OUT"],
+      image:"https://res.cloudinary.com/dc0rv28n2/image/upload/v1686840920/zapastore/IMG_0703_t0qmj6.jpg",
+      price:"18.500",
       marca:"Nike"
     },
     {
       id:6,
-      name:"Jordan Air Shadow",
-      description:"Descubre el estilo con las icónicas Jordan 1. Estas zapatillas clásicas se destacan por su versatilidad, permitiéndote crear looks únicos y a la moda en cualquier ocasión. Con su combinación de colores clásicos y atemporales, las Jordan 1 se convierten en el complemento perfecto para cualquier outfit.",
-      size: [42, 43, 45],
-      image:"https://res.cloudinary.com/dc0rv28n2/image/upload/ar_1:1,c_fill,e_art:hokusai,g_auto,w_1000/v1686841249/zapastore/IMG_0558_dssxgo.jpg",
-      price:"20.000",
+      name:"Air Shadow Candy Color",
+      description:"Las Air Shadow con un clásico atemporal que eleva tu estilo a otro nivel. Su diseño en blanco puro es sinónimo de elegancia y versatilidad, convirtiéndolas en el complemento perfecto para cualquier outfit. Ya sea que vistas un look casual, deportivo o más formal, estas zapatillas te brindan la combinación ideal de estilo y comodidad.",
+      size: [39],
+      image:"https://res.cloudinary.com/dc0rv28n2/image/upload/v1686921602/zapastore/IMG_0474_essvjv.jpg",
+      price:"14.500",
       marca:"Nike"
-    }
+    },
+    {
+      id:7,
+      name:"Jordan 1 Dior",
+      description:"Descubre el estilo con las icónicas Jordan 1. Estas zapatillas clásicas se destacan por su versatilidad, permitiéndote crear looks únicos y a la moda en cualquier ocasión. Con su combinación de colores clásicos y atemporales, las Jordan 1 se convierten en el complemento perfecto para cualquier outfit",
+      size: ["SOLD OUT"],
+      image:"https://res.cloudinary.com/dc0rv28n2/image/upload/v1686841249/zapastore/IMG_0558_dssxgo.jpg",
+      price:"21.000",
+      marca:"Nike"
+    },
+    {
+      id:8,
+      name:"SB Dunk Pro",
+      description:"Descubre la esencia del estilo versátil con las zapatillas SB Pro. Su diseño básico combina a la perfección con cualquier outfit. Estas zapatillas te ofrecen un equilibrio perfecto entre simplicidad y estilo, permitiéndote expresar tu personalidad sin esfuerzo.",
+      size: [39],
+      image:"https://res.cloudinary.com/dc0rv28n2/image/upload/v1686921620/zapastore/IMG_0780.jpg_aicymj.jpg",
+      price:"18.500",
+      marca:"Nike"
+    },
+    {
+      id:9,
+      name:"SB Jean",
+      size: ["SOLD OUT"],
+      description:"Un equilibrio perfecto entre estilo y elegancia. Con su diseño sofisticado y detalles cuidadosamente elaborados, estas zapatillas te brindan una opción única para destacar en cualquier ocasión. Su estilo versátil se adapta a diferentes outfits, desde looks casuales hasta más formales, agregando un toque de sofisticación a tu estilo personal.",
+      image:"https://res.cloudinary.com/dc0rv28n2/image/upload/v1686921935/zapastore/IMG_0548_plmnuu.jpg",
+      price:"18.500",
+      marca:"Nike"
+    },
+    {
+      id:10,
+      name:"Jordan 1 Gamuza",
+      description:"Descubre el estilo con las icónicas Jordan 1. Estas zapatillas clásicas se destacan por su versatilidad, permitiéndote crear looks únicos y a la moda en cualquier ocasión. Con su combinación de colores clásicos y atemporales, las Jordan 1 se convierten en el complemento perfecto para cualquier outfit",
+      size: ["SOLD OUT"],
+      image:"https://res.cloudinary.com/dc0rv28n2/image/upload/v1686921937/zapastore/jordan_celestt_oq7kt8.jpg",
+      price:"19.000",
+      marca:"Nike"
+    },
+    {
+      id:10,
+      name:"Bad Bunny",
+      description:"Descubre el poder de la exclusividad con las zapatillas Bad Bunny. Estas zapatillas únicas te transportan a un mundo de estilo y personalidad distintiva. Con su diseño en tonos marrones y una variedad de detalles impresionantes, como el abrojo, el logo Bad Bunny y la icónica marca Adidas en la suela, estas zapatillas son una verdadera obra de arte en tus pies.",
+      size: ["SOLD OUT"],
+      image:"https://res.cloudinary.com/dc0rv28n2/image/upload/v1686922702/zapastore/IMG_0832_wt9djv.jpg",
+      price:"20.000",
+      marca:"Adidas"
+    },
+    {
+      id:11,
+      name:"Air Force 1",
+      description:"Sumérgete en el mundo del estilo y la personalidad con las zapatillas Air Force 1. Estas icónicas zapatillas en color blanco con detalles en tela cuadrille te ofrecen un toque de elegancia y moda sin igual. Su diseño clásico se combina a la perfección con cualquier outfit, agregando un toque de sofisticación y autenticidad a tu estilo.",
+      size: ["SOLD OUT"],
+      image:"https://res.cloudinary.com/dc0rv28n2/image/upload/v1686923683/zapastore/IMG_0452_xluhyk.jpg",
+      price:"18.500",
+      marca:"Nike"
+    },
   ]
 
 
@@ -71,7 +125,8 @@ const detail = () => {
       <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
         <h2 class="text-sm title-font text-white tracking-widest">{s.marca}</h2>
         <h1 class="text-white text-3xl title-font font-medium mb-1">{s.name}</h1>
-        <div class="flex mb-4">
+        <div class="p-2 pt-8 mt-8 border-t border-gray-200 text-center"></div>
+        {/* <div class="flex mb-4">
           <span class="flex items-center">
             <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-red-500" viewBox="0 0 24 24">
               <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
@@ -107,7 +162,7 @@ const detail = () => {
               </svg>
             </a>
           </span>
-        </div>
+        </div> */}
         <p class="leading-relaxed">{s.description}</p>
         <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5">
 

@@ -14,8 +14,8 @@ const navBar = () => {
             </a>
 
             <nav class="flex lg:w-2/5 flex-wrap items-center text-white cursor-pointer lg:justify-end md:ml-auto">
-            <Link to={`product`}><a class="mr-5 hover:text-red-600 text-xl">Products</a></Link> 
-            <a href='#contact' class="hover:text-red-600 text-xl">Contacts</a>
+            <Link to={`product`}><a class="mr-5 hover:text-red-600 text-xl">Productos</a></Link> 
+            <a href='#contact' class="hover:text-red-600 text-xl">Contactos</a>
             </nav>
         </div>
         </header>
